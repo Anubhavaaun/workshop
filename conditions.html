@@ -1,0 +1,36 @@
+<script>
+    var x=3;
+    var y=9;
+    document.write(x+y);
+    // we can reuse the code again
+    function add(x,y) {
+        console.log(x+y);
+     }
+    add(3,8);
+function employee(id,name)
+{
+    this.id=id;
+    this.name=name;
+}
+var emp=new employee(2018,"anubhav");
+document.write(emp.id);
+
+
+var d = new Date(); //predefined object
+console.log(d);
+console.log(d.getDay());
+var hours=d.getHours();
+/*conditions*/
+document.write("<br>");
+if(hours==2)
+{
+    document.write("hours is right");
+}
+else{
+    document.write("wrong hours");
+}
+
+
+
+
+</script>
