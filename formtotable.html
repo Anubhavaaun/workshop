@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FORMTOTABLE</title>
+</head>
+
+<body>
+    <br>
+
+
+    <table border=1 align="center" cellspacing=0 cellpadding=3>
+        <form name="frm2">
+
+            <th colspan="2" align="center">FEEDBACK</th>
+            <tr>
+                <td colspan="2" align="center"> YOU CAN HELP US TO IMPROVE OUR WEBSITE BY USING THE FOLLOWING FORM TO
+                    LET US KNOW WHAT YOU THINK OR WHAT NEEDS
+                    TO BE CHANGED</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>
+                    <input type="text" name="name"></td>
+            </tr>
+            <br>
+            <tr>
+                <td>Email</td>
+                <td><input type="text" name="email"></td>
+            </tr>
+            <br>
+            <tr>
+                <td> Are you member of club:</td>
+                <td><input type="checkbox" checked> <br></td>
+            </tr>
+            <br>
+            <tr>
+                <td> your age</td>
+                <td><input type="radio" name="age" age &lt=20>&lt;=20<br>
+                    <input type="radio" name="age" age=21-30 checked>21-30<br>
+                    <input type="radio" name="age" age=31-40>31-40<br>
+                    <input type="radio" name="age" bage &gt=40>&gt;40<br></td>
+            </tr>
+            <br>
+            <tr>
+                <td>your state</td>
+                <td><select>
+                        <option value="western australia ">Western australia</option><br>
+                        <option value="india">india</option>
+
+                    </select></td>
+            </tr>
+            <br>
+            <tr>
+                <td>how did you find our site</td>
+                <td><select multiple>
+
+                        <option value="web search">web search</option><br>
+                        <option value="link on another site">link on another website</option><br>
+                        <option vlaue="told about it">told about it</option><br>
+                    </select></td>
+            </tr>
+            <br>
+            <tr>
+                <td>site suggestions</td>
+                <td><textarea name="text" rows="4" columns="30" placeholder="type your suggestions here"></textarea><br></td>
+            </tr>
+            <tr>
+                <td>other comments</td>
+                <td><textarea name="text" rows="3" columns="40" placeholder="Additional comments here"></textarea><br></td>
+            </tr>
+            <br>
+            <tr>
+                <td><input type="submit" name="submit"></td>
+                <td><input type="reset" name="reset"></td>
+            </tr>
+    </table>
+    </form>
+</body>
+
+</html>
